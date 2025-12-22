@@ -1,2 +1,2 @@
 # Neovim
-This is my asthetic neovim config
+This is my asthetic neovim config.
