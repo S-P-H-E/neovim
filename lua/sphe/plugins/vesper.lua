@@ -4,7 +4,7 @@ return {
         priority = 1000,  -- Load before other plugins
         config = function()
             require("vesper").setup({
-                transparent = true,
+                transparent = false,
                 italics = {
                     comments = true,
                     keywords = true,

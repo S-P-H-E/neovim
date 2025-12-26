@@ -18,7 +18,7 @@ return {
             { "hrsh7th/cmp-path" },   -- Optional: file paths
         },
         config = function()
-            vim.lsp.enable({"lua_ls", "tailwindcss", "ts_ls"})
+            vim.lsp.enable({"lua_ls", "tailwindcss", "ts_ls", "rust_analyzer" })
             
             -- nvim-cmp setup for automatic popup completions
             local cmp = require("cmp")
